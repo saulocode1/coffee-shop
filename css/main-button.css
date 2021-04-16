@@ -1,0 +1,24 @@
+.main-button {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: 600;
+    width: 44px;
+    height: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #DCA57D;
+    text-decoration: none;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;   
+    margin-top: 20px;
+    transition: background-color 300ms ease;
+}
+
+.main-button:hover {
+    background-color: #C99872;
+}

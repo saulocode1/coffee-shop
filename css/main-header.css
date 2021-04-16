@@ -1,0 +1,20 @@
+.main-header {
+    display: flex;
+    height: 80px;
+    width: 1283px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: 0px;
+}
+
+
+
+.cart-logo {
+    margin-left: 20px;
+    width: 15px;
+    height: 15px;
+    color: #20292F;
+}

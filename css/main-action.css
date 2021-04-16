@@ -1,0 +1,31 @@
+.main-action {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-decoration: none;
+    color: #20292F;
+    margin-left: 22px;
+    transition: all .4s ease-in-out;   
+}
+
+.main-action-page {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    text-decoration: none;
+    color: #20292F;
+}
+
+.main-action-lading {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    color: #20292F;
+    padding-bottom: 33px;
+    transition: all .4s ease-in-out;   
+}
+
+.main-action:hover, .main-action-lading:hover {
+    color: #7A7F83;
+}
