@@ -1,7 +1,7 @@
 .wrapper-menu {
     display: flex;
     height: 750px;
-    max-width: 1300px;
+    max-width: 1250px;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
@@ -10,11 +10,11 @@
 }
 
 .wrapper-menu .coffee-type:nth-child(1) {  /* enézimo termo. pega apenas os ímpares. odd -ímpar; even - par */
-    margin-right: 680px;
+    margin-right: 650px;
 }
 
 .wrapper-menu .coffee-type:nth-child(3) {  /* enézimo termo. pega apenas os ímpares. odd -ímpar; even - par */
-    margin-right: 680px;
+    margin-right: 650px;
 }
 
 

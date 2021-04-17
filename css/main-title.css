@@ -7,3 +7,11 @@
     letter-spacing: 6px;
     text-shadow: 5px 5px 30px black;
 }
+
+.menu-coffee .menu-title {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+
