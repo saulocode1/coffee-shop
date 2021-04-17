@@ -1,9 +1,10 @@
 .main-banner {
-    background-image: url(/img/banner.jpg);
+    background-image: url(/img/Originals/banner2.jpg);
     height: 750px;
     background-repeat: no-repeat;
     background-size: 100%;
     box-sizing: border-box;
+    
 }
 
 .main-banner .wrapper {
