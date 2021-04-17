@@ -1,0 +1,14 @@
+.menu-coffee {
+    background-image: url(/img/menu-coffee.jpg);
+    background-size: 100%;
+    background-repeat: none;
+    height: 850px;
+}
+
+.menu-coffee .coffee-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
