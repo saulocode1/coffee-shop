@@ -1,20 +1,30 @@
 .wrapper-menu {
     display: flex;
-    height: 750px;
-    max-width: 1250px;
+    height: 850px;
+    max-width: 1363px;
     flex-wrap: wrap;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 100px;
     align-content: space-between;
+    position: relative;
 }
 
-.wrapper-menu .coffee-type:nth-child(1) {  /* enézimo termo. pega apenas os ímpares. odd -ímpar; even - par */
-    margin-right: 650px;
+.wrapper-menu .coffee-type { 
+    position: absolute 
 }
 
-.wrapper-menu .coffee-type:nth-child(3) {  /* enézimo termo. pega apenas os ímpares. odd -ímpar; even - par */
-    margin-right: 650px;
+.wrapper-menu .coffee-type.-latte  { 
+    top: 80px; left: 30px; 
 }
 
+.wrapper-menu .coffee-type.-espresso { 
+    top: 80px; right: 30px; 
+} 
 
+.wrapper-menu .coffee-type.-black  { 
+    bottom: 80px; left: 30px; 
+}
+
+.wrapper-menu .coffee-type.-cappuccino  { 
+    bottom: 80px; right: 30px; 
+}
