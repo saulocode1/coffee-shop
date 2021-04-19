@@ -3,7 +3,6 @@
     font-size: 80px;
     color: white;
     text-align: center;
-    padding-bottom: 15px;
     letter-spacing: 6px;
     text-shadow: 5px 5px 30px black;
 }
@@ -15,3 +14,9 @@
     font-size: 30px;
 }
 
+.about-section .main-title {
+    position: relative;
+    top: 20px;
+    font-size: 50px;
+    text-shadow: none;
+}
