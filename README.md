@@ -2,4 +2,4 @@
 Coffee shop website to test my skills in HTML and CSS.
 
 Preview:
-<video src="/img/video-preview.mp4"></video>
+<img src="img/preview.png" alt="preview">
