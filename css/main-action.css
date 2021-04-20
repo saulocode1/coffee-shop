@@ -8,7 +8,7 @@
     transition: all .3s ease-in-out;   
 }
 
-.main-action-page {
+.main-action-home {
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     font-size: 23px;
@@ -27,5 +27,5 @@
 }
 
 .main-action:hover, .main-action-lading:hover {
-    color: #7A7F83;
+    color: #A6A6A6 ; 
 }

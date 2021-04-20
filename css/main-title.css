@@ -14,9 +14,15 @@
     font-size: 30px;
 }
 
-.about-section .main-title {
+.main-title.-second {
     position: relative;
     top: 15px;
     font-size: 50px;
     text-shadow: none;
+}
+
+.main-title.-third {
+    text-shadow: none;
+    font-size: 50px;
+    margin-bottom: 75px;
 }
