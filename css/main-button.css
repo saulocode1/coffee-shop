@@ -7,7 +7,7 @@
     padding-right: 25px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #C9A488;
+    background-color: #DCA57D;
     text-decoration: none;
     color: white;
     margin-left: auto;
@@ -22,5 +22,10 @@
 }
 
 .main-button:hover {
-    background-color: #C69879;
+    background-color: #c59370;
+}
+
+.main-contact .main-button.-second {
+    margin-left: 0px;
+    margin-top: 30px;
 }
