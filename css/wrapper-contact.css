@@ -1,0 +1,8 @@
+.wrapper-contact {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 350px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
