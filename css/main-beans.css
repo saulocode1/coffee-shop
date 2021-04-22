@@ -1,7 +1,7 @@
 .main-beans {
     position: relative;
     height: 850px;
-    background-image: url(file:///C:/Users/saulim/Desktop/Dev/github/coffee/img/coffee.jpg);
+    background-image: url(/img/coffee.jpg);
     background-position: center;
     background-size: cover;
 }

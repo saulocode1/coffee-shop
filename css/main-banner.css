@@ -1,5 +1,5 @@
 .main-banner {
-    background-image: url(file:///C:/Users/saulim/Desktop/Dev/github/coffee/img/banner.jpg);
+    background-image: url(/img/banner.jpg);
     height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
