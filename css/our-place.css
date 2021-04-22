@@ -2,6 +2,7 @@
     background-image: url(/img/place.jpg);
     height: 100vh;
     position: relative;
+    background-repeat: no-repeat;
 }
 
 
@@ -10,8 +11,8 @@
     flex-direction: column;
     width: 480px;
     position: absolute;
-    top: 150px;
-    left: 30px;
+    top: 160px;
+    left: 35px;
 }
 
 .our-place .main-title {

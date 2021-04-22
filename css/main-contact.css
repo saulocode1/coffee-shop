@@ -7,19 +7,20 @@
     background-image: url(/img/days.jpg);
     background-size:cover ;
     height: 500px;
-    width: 681.5px;
+    width: 50vw;
     background-color: grey;
 }
 
 .contact {
     background-color: black;
     height: 500px;
-    width: 681.5px;
+    width: 50vw;
     position: relative;
 }
 
 .contact-text {
-    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
     color: white;
     font-family: 'Nunito', sans-serif;
 }
