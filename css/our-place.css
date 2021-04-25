@@ -1,5 +1,5 @@
 .our-place {
-    background-image: url(/img/place.jpg);
+    background-image: url("../img/place.jpg");
     height: 100vh;
     position: relative;
     background-repeat: no-repeat;

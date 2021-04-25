@@ -4,7 +4,7 @@
 }
 
 .calendar {
-    background-image: url(/img/days.jpg);
+    background-image: url("../img/days.jpg");
     background-size:cover ;
     height: 500px;
     width: 50vw;
