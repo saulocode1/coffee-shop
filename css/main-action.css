@@ -5,7 +5,7 @@
     text-decoration: none;
     color: #20292F;
     margin-left: 22px;
-    transition: all .3s ease-in-out;   
+    transition: none;  
 }
 
 .main-action-home {
@@ -23,7 +23,7 @@
     text-decoration: none;
     color: #20292F;
     padding-bottom: 33px;
-    transition: all .3s ease-in-out;   
+    transition: none;  
 }
 
 .main-action:hover, .main-action-lading:hover {

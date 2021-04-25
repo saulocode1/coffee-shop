@@ -7,6 +7,8 @@
     align-items: center;
     padding-left: 40px;
     padding-right: 40px;
+    animation: none;
+    transition: none;
 }
 
 .cart-logo {

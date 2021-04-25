@@ -1,10 +1,12 @@
 .main-banner {
-    background-image: url(/img/banner.jpg);
+    background-image: url(file:///C:/Users/saulim/Desktop/Dev/github/coffee/img/banner.jpg);
     height: 750px;
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box; 
     background-position: bottom;
+    animation-name: opacity;
+    animation-duration: 2s;
 }
 
 .main-banner .wrapper {
@@ -19,6 +21,9 @@
     top: 55%;
     width: 100%;
     transform: translateY(-50%);
+    transition: 2.5s ease;
+    animation-name: opacity;
+    animation-duration: 1.5s;
 }
 
 .main-banner .arrows {
@@ -31,4 +36,13 @@
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
