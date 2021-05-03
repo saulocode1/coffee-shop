@@ -12,4 +12,6 @@
     width: 350px;
     height: 180px;
     justify-content: start;
+    animation: opacity 2s;
 }
+
