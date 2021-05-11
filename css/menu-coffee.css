@@ -1,8 +1,9 @@
 .menu-coffee {
     background-image: url("../img/menu-coffee.jpg");
-    background-size: 100%;
-    background-repeat: none;
-    height: 850px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
 
 .menu-coffee .coffee-type {

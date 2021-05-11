@@ -1,7 +1,9 @@
 .main-beans {
     position: relative;
-    height: 850px;
     background-image: url("../img/coffee.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
 }
