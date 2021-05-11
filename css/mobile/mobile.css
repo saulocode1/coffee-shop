@@ -1,0 +1,71 @@
+html {
+    /* a cada 1rem será considerado 10 pixels */
+    font-size: 62.5%;
+}
+
+html, body {
+    box-sizing: border-box;
+}
+
+/*
+MAIN HEADER 
+*/ 
+
+header.main-header {
+    height: 15vh;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 5vh 8.5vh;
+    width: 100%;
+    padding: 0;
+}
+
+nav.navigation {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+nav.navigation > a {
+    margin: auto;
+    margin: 0;
+    padding: 0.7rem;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-size: 1.7rem;
+}
+a.main-action-home {
+    font-size: 2.5rem;
+}
+a.cart-logo {
+    display: none;
+    visibility: hidden;
+}
+
+/*
+MAIN-BANNER
+*/
+
+section.main-banner {
+    background-position: top;
+    height: 100vh;
+}
+h1.main-title {
+    font-size: 6rem;
+    margin: 0.5em 0;
+}
+
+/*
+ABOUT SECTION
+*/
+
+.about-section .video {
+    display: none;
+}
