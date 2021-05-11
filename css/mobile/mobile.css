@@ -12,13 +12,13 @@ MAIN HEADER
 */ 
 
 header.main-header {
-    height: 15vh;
+    height: 18vh;
     text-align: center;
     justify-content: center;
     align-content: center;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 5vh 8.5vh;
+    grid-template-rows: 6vh 10vh;
     width: 100%;
     padding: 0;
 }
@@ -56,7 +56,7 @@ MAIN-BANNER
 section.main-banner {
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 85vh;
 }
 h1.main-title {
     font-size: 6rem;
