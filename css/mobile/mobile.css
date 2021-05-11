@@ -54,12 +54,63 @@ MAIN-BANNER
 */
 
 section.main-banner {
-    background-position: top;
+    background-size: cover;
+    background-position: center;
     height: 100vh;
 }
 h1.main-title {
     font-size: 6rem;
     margin: 0.5em 0;
+}
+
+.main-banner div.wrapper {
+    position: absolute;
+    top: 50vh;
+    transform: translateY(-50%);
+}
+
+/*
+MENU COFFEE
+*/
+
+section.menu-coffee {
+    height: 100vh;
+    position: relative;
+    background-position: center;
+}
+
+section.menu-coffee .menu-title {
+    font-size: 2.5rem;
+}
+
+.menu-coffee .menu-text {
+    font-size: .8rem;
+    margin: 10px;
+}
+
+div.wrapper-menu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 94vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+div.wrapper-menu .coffee-type {
+    position: static;
+    align-content: center;
+    justify-content: center;
+    background-color: khaki;
+    height: 170px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border-radius: .3rem;
 }
 
 /*
