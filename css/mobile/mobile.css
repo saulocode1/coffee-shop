@@ -85,12 +85,12 @@ section.menu-coffee {
 }
 
 section.menu-coffee .menu-title {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: black;
 }
 
 .menu-coffee .menu-text {
-    font-size: .3rem;
+    font-size: .1rem;
     margin: 10px;
 }
 
@@ -117,6 +117,28 @@ div.wrapper-menu .coffee-type {
     padding: 1rem;
     box-sizing: border-box;
     border-radius: .3rem;
+}
+
+/*
+BEANS
+*/ 
+
+section.main-beans {
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+div.wrapper-beans {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.3);
+    height: 60vh;
+    padding: 50px;
 }
 
 /*
