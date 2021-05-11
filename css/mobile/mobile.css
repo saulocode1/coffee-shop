@@ -86,6 +86,7 @@ section.menu-coffee {
 
 section.menu-coffee .menu-title {
     font-size: 1rem;
+    color: black;
 }
 
 .menu-coffee .menu-text {
@@ -111,7 +112,7 @@ div.wrapper-menu .coffee-type {
     position: static;
     align-content: center;
     justify-content: center;
-    background-color: khaki;
+    background-color: white;
     height: 15rem;
     padding: 1rem;
     box-sizing: border-box;
