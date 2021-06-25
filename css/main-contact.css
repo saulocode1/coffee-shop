@@ -6,21 +6,21 @@
 .calendar {
     background-image: url("../img/days.jpg");
     background-size: cover;
-    height: 500px;
+    height: 31.25rem;
     width: 50vw;
     background-color: grey;
 }
 
 .contact {
     background-color: black;
-    height: 500px;
+    height: 31.25rem;
     width: 50vw;
     position: relative;
 }
 
 .contact-text {
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     color: white;
     font-family: 'Nunito', sans-serif;
 }

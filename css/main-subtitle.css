@@ -1,6 +1,6 @@
 .main-subtitle {
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
     text-align: center;
     text-shadow: 0px 0px 30px black;
@@ -9,11 +9,11 @@
 
 .main-contact .main-subtitle.-second {
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     letter-spacing: 1px;
     font-weight: 400;
     text-align: left;
     text-shadow: none;
     color: #DCA57D;
-    margin-bottom: 10px;
+    margin-bottom: 0.62rem;
 }

@@ -1,12 +1,12 @@
 .main-button {
     font-family: 'Oswald', sans-serif;
-    font-size: 15px;
+    font-size: 0.9rem;
     letter-spacing: 3px;
     font-weight: 600;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-left: 1.56rem;
+    padding-right: 1.56rem;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
     background-color: #DCA57D;
     text-decoration: none;
     color: white;
@@ -27,5 +27,5 @@
 
 .main-contact .main-button.-second {
     margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 1.87rem;
 }

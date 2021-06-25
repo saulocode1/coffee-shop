@@ -10,8 +10,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 350px;
-    height: 180px;
+    width: 21.87rem;
+    height: 11.25rem;
     justify-content: start;
     animation: opacity 2s;
 }

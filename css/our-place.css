@@ -11,23 +11,23 @@
 .wrapper-place {
     display: flex;
     flex-direction: column;
-    width: 480px;
+    width: 30rem;
     position: absolute;
-    top: 160px;
-    left: 35px;
+    top: 10rem;
+    left: 2.18rem;
 }
 
 .our-place .main-title {
     text-align: start;
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 3.12rem;
+    margin-bottom: 1.25rem;
 }
 
 .place-text {
     font-family: 'Nunito', sans-serif;
     color: #BFBFBF;
-    font-size: 25px;
+    font-size: 1.56rem;
     margin-top: 0px;
-    margin-bottom: 75px;
+    margin-bottom: 4.68rem;
     text-align: start;
 }

@@ -2,11 +2,11 @@
 .about-section .about-text {
     color: #BFBFBF;
     text-align: center;
-    max-width: 900px;
+    max-width: 56.25rem;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Nunito', sans-serif;
-    font-size: 21px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    font-size: 1.31rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
 }
