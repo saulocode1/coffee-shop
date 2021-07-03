@@ -4,7 +4,6 @@
     background-size: cover;
     box-sizing: border-box; 
     background-position: bottom;
-    animation: opacity 1.5s;
     height: 92vh;
     width: 100%;
 }
@@ -21,15 +20,4 @@
     top: 55%;
     width: 100%;
     transform: translateY(-50%);
-    transition: 2.5s ease;
-    animation: opacity 2s;
-}
-
-@keyframes opacity {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
 }

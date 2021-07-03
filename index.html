@@ -35,7 +35,7 @@
 
 </head>
 <body>
-    <header class="main-header" id="home">
+    <header class="main-header" id="header">
         <a class="main-action-home" href="">Coffee House</a>
 
         <nav class="navigation">
@@ -49,7 +49,7 @@
         </nav>
     </header>
 
-    <section class="main-banner">
+    <section class="main-banner" id="home">
         <div class="wrapper">
             <h1 class="main-title">COFFEE HOUSE</h1>
             <h2 class="main-subtitle">Serving only the best since 2013</h2>
@@ -89,12 +89,14 @@
         </div>
     </section>
 
-    <section class="about-section" id="about">
-        <h1 class="main-title -second">OUR STORY</h1>
-
-        <p class="about-text">The COFFEE HOUSE was born in 2013 to pay tribute to coffee in all its forms and to offer customers the possibility to share with us the passion about the best coffees in the world.</p>
-
-        <iframe class="video" src="https://player.vimeo.com/video/370831589?color=ffffff&title=0&byline=0&portrait=0" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    <section class="about-section" id="about">  
+        <div class="wrapper-about">
+            <h1 class="main-title -second">OUR STORY</h1>
+            <p class="about-text">The Coffee House was born in 2013 to pay tribute to coffee in all its forms and to offer customers the possibility to share with us the passion about the best coffees in the world.
+            The Coffee House provides a business hub where professionals in all industries can come to grab some coffee, hold a meeting, meet for lunch or put in a full day of work.
+            </p>
+            <iframe class="video" src="https://player.vimeo.com/video/370831589?color=ffffff&title=0&byline=0&portrait=0" width="1000" height="563" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
 
 
     </section>
@@ -111,10 +113,14 @@
         <div class="calendar">
             <div class="wrapper-calendar">
                 <h1 class="main-title -third">COME ON IN!</h1>
-                <h2 class="main-subtitle -second">WEEKDAYS</h2>
-                <p class="contact-text">08PM -12AM</p>
-                <h2 class="main-subtitle -second">WEEKENDS</h2>
-                <p class="contact-text">12 PM – 02 AM</p>
+
+                <div class="wrapper-text">
+                    <h2 class="main-subtitle -second">WEEKDAYS</h2>
+                    <p class="contact-text">08PM -12AM</p>
+                    <h2 class="main-subtitle -second">WEEKENDS</h2>
+                    <p class="contact-text">12 PM – 02 AM</p>
+                </div>
+
                 <a class="main-button -second" href="">VIEW THE MENU</a>
             </div>
         </div>
@@ -122,15 +128,22 @@
         <div class="contact">
             <div class="wrapper-contact">
                 <h1 class="main-title -third">CONTACT</h1>
-                <h2 class="main-subtitle -second">PHONE</h2>
-                <p class="contact-text">+(000) 111 222 333</p>
-                <h2 class="main-subtitle -second">MAIL</h2>
-                <p class="contact-text">address@domain.com</p>
-                <h2 class="main-subtitle -second">ADDRESS</h2>
-                <p class="contact-text">543 TN, doula street
-                    NY, New York</p>
+                
+                <div class="wrapper-text">
+                    <h2 class="main-subtitle -second">PHONE</h2>
+                    <p class="contact-text">+(000) 111 222 333</p>
+                    <h2 class="main-subtitle -second">MAIL</h2>
+                    <p class="contact-text">address@domain.com</p>
+                    <h2 class="main-subtitle -second">ADDRESS</h2>
+                    <p class="contact-text">543 TN, doula street
+                        NY, New York</p>
+                </div>
             </div>
         </div>
     </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+
 </body>
 </html>
