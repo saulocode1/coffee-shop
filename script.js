@@ -13,5 +13,5 @@ scrollReveal.reveal (`
     #about h1, #about p, #about .video,
     #store h1, #store p,
     .main-contact .wrapper-text, .main-contact a, .main-contact .wrapper-contact
-`, {interval: 100} 
+`, {interval: 200} 
 )
